@@ -1,21 +1,35 @@
-name: "First Github Demo"
-
+name: "First Github Action Demo"
 on: [push]
 jobs:
-  Job-1-Runs-On-Ubuntu:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Welcome to Github Actions using YAML"
-      - run: echo "Current OS is ${{runner.os}}"
-      - run: echo "Github Event Name is ${{github.event_name}}"
-      - run: pwd
-      - run: ls ~
-      - run: ls ${{github.workspace}}
-  Job-Message_Actions_Windows:
-    runs-on windows-latest
-    steps:
-    - name: Get listof Firewall Inbound Rules
-      shell: pwsh
-      run: |
-        Get-NetFirewall Rule -Direction Inbound
-      
+    Job1-Run-On-Ubuntu:
+      runs-on: ubuntu-latest
+      steps:
+          - run: echo "Welcome to Github Action using YAML"
+          - run: echo "Current OS is ${{runner.os}} "
+          - run: echo "Github Event Name is ${{github.event_name}} "
+          - run: pwd
+          - name: "Running Linux LS Command"
+            run: ls ~
+          - run: ls ${{github.workspace}}
+    Job-Message-Actions-Windows:
+        runs-on: windows-latest
+        steps:
+          - name: Get List of Firewall Inbound Rules
+            shell: pwsh
+            run: |
+              Get-NetFirewallRule -Direction Inbound
+    Testing-Job-onMac:
+        runs-on: macos-latest
+        steps:
+          - name: Check out Current Repository
+            uses: actions/checkout@v3
+
+          - name: Install Github CLI
+            run: |
+              brew update
+              brew install gh
+    
+          - name: Install Microsoft Edge
+            run: |
+              brew update
+              brew install --cask microsoft-edge
