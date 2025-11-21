@@ -5,4 +5,17 @@ jobs:
   Job-1-Runs-On-Ubuntu:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Welcome to Github Actions"
+      - run: echo "Welcome to Github Actions using YAML"
+      - run: echo "Current OS is ${{runner.os}}"
+      - run: echo "Github Event Name is ${{github.event_name}}"
+      - run: pwd
+      - run: ls ~
+      - run: ls ${{github.workspace}}
+  Job-Message_Actions_Windows:
+    runs-on windows-latest
+    steps:
+    - name: Get listof Firewall Inbound Rules
+    shell: pwsh
+    run: |
+      Get-NetFirewallRule -Direction Inbound
+      
