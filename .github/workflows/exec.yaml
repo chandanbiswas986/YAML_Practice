@@ -15,7 +15,7 @@ jobs:
     runs-on windows-latest
     steps:
     - name: Get listof Firewall Inbound Rules
-    shell: pwsh
-    run: |
-      Get-NetFirewallRule -Direction Inbound
+      shell: pwsh
+      run: |
+        Get-NetFirewallRule -Direction Inbound
       
