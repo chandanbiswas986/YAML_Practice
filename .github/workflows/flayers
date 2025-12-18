@@ -1,51 +1,17 @@
-paste all here 
-<table cellpadding="0" cellspacing="0" style="width:600px; background:#fff; border:1px solid #e5e5e5; border-radius:8px; font-family:Oracle Sans,Arial,sans-serif;">
-  <tr>
-    <td style="padding:32px 40px; text-align:center;">
-      <h1 style="margin:0 0 8px; font-size:28px; color:#BB0000;">Talk to Your Data</h1>
-      <p style="margin:0 0 24px; font-size:18px; color:#4F4F4F;">Type <em>"show me yesterday's scrap rate"</em> – get a chart instantly.</p>
-      <img src="https://cdn-icons-png.flaticon.com/512/2088/2088617.png" width="120" alt="chat bubble">
-      <ol style="margin:24px 0 0; padding:0 0 0 20px; text-align:left; font-size:16px;">
-        <li>Open any workbook.</li>
-        <li>Click <strong>Ask</strong> (microphone icon).</li>
-        <li>Hit Enter – OAC builds the viz for you.</li>
-      </ol>
-      <a href="https://your-oac-url" style="display:inline-block; margin-top:24px; padding:12px 32px; background:#BB0000; color:#fff; text-decoration:none; border-radius:4px; font-weight:bold;">Try Data-Ask Now</a>
-    </td>
-  </tr>
-</table>
-
-____________&&&&_______
-<table cellpadding="0" cellspacing="0" style="width:600px; background:#fff; border:1px solid #e5e5e5; border-radius:8px; font-family:Oracle Sans,Arial,sans-serif;">
-  <tr>
-    <td style="padding:32px 40px; text-align:center;">
-      <h1 style="margin:0 0 8px; font-size:28px; color:#BB0000;">Excel to Dashboard in 60 s</h1>
-      <p style="margin:0 0 24px; font-size:18px; color:#4F4F4F;">Drag-and-drop your file – OAC auto-models and visualises.</p>
-      <img src="https://cdn-icons-png.flaticon.com/512/738/738882.png" width="120" alt="stopwatch">
-      <ol style="margin:24px 0 0; padding:0 0 0 20px; text-align:left; font-size:16px;">
-        <li>Click <strong>Create &gt; Data Set &gt; Upload</strong>.</li>
-        <li>Select your XLSX – OAC detects headers &amp; data types.</li>
-        <li>Hit <strong>Visualise</strong> – pick your chart, done.</li>
-      </ol>
-      <a href="https://your-oac-url" style="display:inline-block; margin-top:24px; padding:12px 32px; background:#BB0000; color:#fff; text-decoration:none; border-radius:4px; font-weight:bold;">Upload Now</a>
-    </td>
-  </tr>
-</table>
-_______
+paste all Arial,sans-serif
 
 <table cellpadding="0" cellspacing="0" style="width:600px; background:#fff; border:1px solid #e5e5e5; border-radius:8px; font-family:Oracle Sans,Arial,sans-serif;">
   <tr>
     <td style="padding:32px 40px; text-align:center;">
-      <h1 style="margin:0 0 8px; font-size:28px; color:#BB0000;">Forecast Sales in 1 Click</h1>
-      <p style="margin:0 0 24px; font-size:18px; color:#4F4F4F;">Let machine learning predict the next 12 periods – no code.</p>
-      <img src="https://cdn-icons-png.flaticon.com/512/2906/2906274.png" width="120" alt="crystal ball">
+      <h1 style="margin:0 0 8px; font-size:28px; color:#BB0000;">Let the Inbox Work for You</h1>
+      <p style="margin:0 0 24px; font-size:18px; color:#4F4F4F;">Schedule any dashboard as PDF / Excel – daily, weekly, monthly.</p>
+      <img src="https://cdn-icons-png.flaticon.com/512/542/542638.png" width="120" alt="envelope">
       <ol style="margin:24px 0 0; padding:0 0 0 20px; text-align:left; font-size:16px;">
-        <li>Right-click your line chart.</li>
-        <li>Choose <strong>Add Statistics &gt; Forecast</strong>.</li>
-        <li>Set confidence level – OAC does the rest.</li>
+        <li>Open the project &gt; <strong>Actions &gt; Schedule</strong>.</li>
+        <li>Pick recipients, format &amp; frequency.</li>
+        <li>Hit Save – OAC mails it automatically.</li>
       </ol>
-      <a href="https://your-oac-url" style="display:inline-block; margin-top:24px; padding:12px 32px; background:#BB0000; color:#fff; text-decoration:none; border-radius:4px; font-weight:bold;">Run Forecast</a>
+      <a href="https://your-oac-url" style="display:inline-block; margin-top:24px; padding:12px 32px; background:#BB0000; color:#fff; text-decoration:none; border-radius:4px; font-weight:bold;">Schedule It</a>
     </td>
   </tr>
 </table>
-__________
